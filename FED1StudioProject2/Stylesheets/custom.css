@@ -31,3 +31,16 @@
  nav li:hover {
      background-color: darkgrey;
  }
+
+ .align-center {
+     text-align: center;
+ }
+
+ .Cborder {
+   border-style: double none;
+   display: inline-block;
+ }
+
+ .Mborder {
+     border-style:solid;
+ }
