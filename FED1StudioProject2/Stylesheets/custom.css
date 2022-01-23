@@ -2,6 +2,7 @@
      font-style:italic;
      color: ghostwhite;
      background-color:black;
+     margin: 0px;
  }
 
  h1.ghostB {
@@ -16,7 +17,8 @@
  
  p.ghostT {
      color: orangered;
-     background-color: black;  
+     background-color: black; 
+     margin: 0px;
  }
 
  nav ul li {
@@ -34,13 +36,27 @@
 
  .align-center {
      text-align: center;
+     background-color: black;
  }
 
  .Cborder {
    border-style: double none;
    display: inline-block;
+   font-weight: bold;
+   color: orangered;
+   background-color: black;
  }
 
  .Mborder {
      border-style:solid;
+     background-color: black;
  }
+
+ p.Cborder a:hover {
+     background-color: darkgrey;
+ }
+
+ nav ul li a {
+     color: teal;
+ }
+
