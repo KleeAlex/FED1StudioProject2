@@ -1,0 +1,21 @@
+﻿ h1.ghostI {
+     font-style:italic;
+     color: ghostwhite;
+     background-color:black;
+ }
+
+ h1.ghostB {
+     font-weight: bold;
+     color: orangered;
+     background-color: black;
+ }
+
+ #ghoulA {
+     background-color: orangered;
+ }
+ 
+ p.ghostT {
+     color: orangered;
+     background-color: black;
+     
+ }
