@@ -16,6 +16,18 @@
  
  p.ghostT {
      color: orangered;
-     background-color: black;
-     
+     background-color: black;  
+ }
+
+ nav ul li {
+     display: inline-block;
+ }
+
+ nav ul li a {
+     padding: .2em 7em;
+     display: block;
+ }
+
+ nav li:hover {
+     background-color: darkgrey;
  }
