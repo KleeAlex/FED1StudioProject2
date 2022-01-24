@@ -1,9 +1,13 @@
-﻿ h1.ghostI {
-     font-style:italic;
-     color: ghostwhite;
-     background-color:black;
-     margin: 0px;
- }
+﻿@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sedgwick+Ave&display=swap');
+
+
+h1.ghostI {
+    font-style: italic;
+    color: ghostwhite;
+    background-color: black;
+    margin: 0px;
+    font-family: 'Sedgwick Ave', cursive;
+}
 
  h1.ghostB {
      font-weight: bold;
@@ -13,12 +17,14 @@
 
  #ghoulA {
      background-color: orangered;
+     padding: 1em;
  }
  
  p.ghostT {
      color: orangered;
      background-color: black; 
      margin: 0px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
  }
 
  nav ul li {
@@ -60,3 +66,30 @@
      color: teal;
  }
 
+ .fab {
+    background-color: ghostwhite;
+     float: right;
+     border-right: solid;
+     padding: .5em;
+ }
+
+#headerOverlay {
+    background-image: url(../Images/Logo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 298px;
+    padding: 7em;
+    background-position: 8% center 10% bottom;
+}
+
+
+
+h1.ghostF {
+    font-style: italic;
+    color: ghostwhite;
+    background-color: black;   
+    font-family: 'Sedgwick Ave', cursive;
+}
+
+#Motion {
+    margin: -10em 0 0 20em;
+}

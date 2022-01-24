@@ -68,6 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Classes.html" />
+    <Content Include="favicon-32x32.png" />
+    <Content Include="Images\Logo.jpg" />
+    <Content Include="Images\Logo2.jpg" />
     <Content Include="Stylesheets\custom.css" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
@@ -87,7 +90,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
   <PropertyGroup>
