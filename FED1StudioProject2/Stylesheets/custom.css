@@ -4,16 +4,18 @@
 h1.ghostI {
     font-style: italic;
     color: ghostwhite;
-    background-color: black;
     margin: 0px;
     font-family: 'Sedgwick Ave', cursive;
+    background-image: url(../Images/Grainy_Background.jpg);
+    background-repeat: no-repeat;
 }
 
- h1.ghostB {
-     font-weight: bold;
-     color: orangered;
-     background-color: black;
- }
+h1.ghostB {
+    font-weight: bold;
+    color: orangered;
+    background-image: url(../Images/Grainy_Background.jpg);
+    background-repeat: no-repeat;
+}
 
  #ghoulA {
      background-color: orangered;
@@ -22,7 +24,8 @@ h1.ghostI {
  
  p.ghostT {
      color: orangered;
-     background-color: black; 
+     background-image: url(../Images/Grainy_Background.jpg);
+     background-repeat:no-repeat;
      margin: 0px;
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
  }
@@ -40,23 +43,26 @@ h1.ghostI {
      background-color: darkgrey;
  }
 
- .align-center {
-     text-align: center;
-     background-color: black;
- }
+.align-center {
+    text-align: center;
+    background-image: url(../Images/Grainy_Background.jpg);
+    background-repeat: no-repeat;
+}
 
- .Cborder {
-   border-style: double none;
-   display: inline-block;
-   font-weight: bold;
-   color: orangered;
-   background-color: black;
- }
+.Cborder {
+    border-style: double none;
+    display: inline-block;
+    font-weight: bold;
+    color: orangered;
+    background-image: url(../Images/Grainy_Background.jpg);
+    background-repeat: no-repeat;
+}
 
- .Mborder {
-     border-style:solid;
-     background-color: black;
- }
+.Mborder {
+    border-style: solid;
+    background-image: url(../Images/Grainy_Background.jpg);
+    background-repeat: no-repeat;
+}
 
  p.Cborder a:hover {
      background-color: darkgrey;
@@ -86,10 +92,47 @@ h1.ghostI {
 h1.ghostF {
     font-style: italic;
     color: ghostwhite;
-    background-color: black;   
+    background-image: url(../Images/Grainy_Background.jpg);
+    background-repeat: no-repeat;
     font-family: 'Sedgwick Ave', cursive;
 }
 
 #Motion {
     margin: -10em 0 0 20em;
+}
+
+#Cgallery {
+    margin: auto;
+    width: 85%;
+    text-align: center;
+    border: solid;
+}
+
+div.CItem {
+    margin: 5px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 350px;
+}
+
+div.CItem:hover {
+    border: 1px solid darkgrey;
+}
+
+div.CItem img {
+    width: 100%;
+    height: auto;
+}
+
+div.CItem a:hover {
+    background-color: darkgrey;
+}
+
+.Sclass {
+    background-image: url(../Images/Grainy_Background.jpg);
+}
+
+.Dtext {
+   color: orangered;
+   font-family: "Sedgwick Ave", cursive;
 }

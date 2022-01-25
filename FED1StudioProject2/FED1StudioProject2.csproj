@@ -69,8 +69,16 @@
   <ItemGroup>
     <Content Include="Classes.html" />
     <Content Include="favicon-32x32.png" />
+    <Content Include="Images\Appatizer.jpg" />
+    <Content Include="Images\Breakfast.jpg" />
+    <Content Include="Images\Cake.jpg" />
+    <Content Include="Images\Drinks.jpg" />
+    <Content Include="Images\Ghost_on_a_hill REMAKE.jpg" />
+    <Content Include="Images\Grainy_Background.jpg" />
     <Content Include="Images\Logo.jpg" />
     <Content Include="Images\Logo2.jpg" />
+    <Content Include="Images\Seafood.jpg" />
+    <Content Include="Images\Side_Dishes.jpg" />
     <Content Include="Stylesheets\custom.css" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
