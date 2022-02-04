@@ -76,7 +76,7 @@
     <Content Include="Images\Cake.jpg" />
     <Content Include="Images\calum-lewis-vA1L1jRTM70-unsplash.jpg" />
     <Content Include="Images\CleanSB.jpg" />
-    <Content Include="Images\ConfusedSB.jfif" />
+    <Content Include="Images\ConfusedSB.jpg" />
     <Content Include="Images\CrispWD.jpg" />
     <Content Include="Images\dinesh-ramaswamy-p-sEkj6-hAM-unsplash.jpg" />
     <Content Include="Images\Drinks.jpg" />
@@ -87,13 +87,13 @@
     <Content Include="Images\KnifeWD.jpg" />
     <Content Include="Images\Logo.jpg" />
     <Content Include="Images\Logo2.jpg" />
-    <Content Include="Images\ProSB.jfif" />
+    <Content Include="Images\ProSB.jpg" />
     <Content Include="Images\Seafood.jpg" />
     <Content Include="Images\SeriousSB.jpg" />
     <Content Include="Images\Side_Dishes.jpg" />
     <Content Include="Images\SoYoungWD.jpg" />
     <Content Include="Images\WildSB.jpg" />
-    <Content Include="Images\YouthSB.jfif" />
+    <Content Include="Images\YouthSB.jpg" />
     <Content Include="Stylesheets\custom.css" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
