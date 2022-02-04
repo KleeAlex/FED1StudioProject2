@@ -39,9 +39,9 @@ h1.ghostB {
      display: block;
  }
 
- nav li:hover {
-     background-color: darkgrey;
- }
+nav li:hover {
+    background-color: chocolate;
+}
 
 .align-center {
     text-align: center;
@@ -68,15 +68,20 @@ h1.ghostB {
      background-color: darkgrey;
  }
 
- nav ul li a {
-     color: teal;
- }
+nav ul li a {
+    color: #31B9B6;
+}
 
  .fab {
     background-color: ghostwhite;
      float: right;
      border-right: solid;
      padding: .5em;
+     
+ }
+
+ .fab:hover {
+     background-color: dodgerblue;
  }
 
 #headerOverlay {
@@ -91,7 +96,7 @@ h1.ghostB {
 
 h1.ghostF {
     font-style: italic;
-    color: ghostwhite;
+    color: #31B9B6;
     background-image: url(../Images/Grainy_Background.jpg);
     background-repeat: no-repeat;
     font-family: 'Sedgwick Ave', cursive;
@@ -135,4 +140,19 @@ div.CItem a:hover {
 .Dtext {
    color: orangered;
    font-family: "Sedgwick Ave", cursive;
+}
+
+.bodyEdge {
+    margin: 0;
+}
+
+.pageSize {
+    width: 400px;
+    margin: auto;
+    min-height: 755px;
+}
+
+.teamMember {
+    border-radius: 100px;
+    float: left;
 }
