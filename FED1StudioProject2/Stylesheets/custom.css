@@ -6,35 +6,26 @@ h1.ghostI {
     color: ghostwhite;
     margin: 0px;
     font-family: 'Sedgwick Ave', cursive;
-
 }
 
-/*h1.ghostB {
-    font-weight: bold;
+#ghoulA {
+    background-color: orangered;
+    padding: 1em;
+}
+
+p.ghostT {
     color: orangered;
-    background-image: url(../Images/Grainy_Background.jpg);
-    background-repeat: no-repeat;
-}*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
- #ghoulA {
-     background-color: orangered;
-     padding: 1em;
- }
- 
- p.ghostT {
-     color: orangered;
+nav ul li {
+    display: inline-block;
+}
 
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
- }
-
- nav ul li {
-     display: inline-block;
- }
-
- nav ul li a {
-     padding: .2em 7em;
-     display: block;
- }
+    nav ul li a {
+        padding: .2em 7em;
+        display: block;
+    }
 
 nav li:hover {
     background-color: chocolate;
@@ -42,8 +33,6 @@ nav li:hover {
 
 .align-center {
     text-align: center;
-    background-image: url(../Images/Grainy_Background.jpg);
-    background-repeat: no-repeat;
 }
 
 .Cborder {
@@ -55,38 +44,30 @@ nav li:hover {
     background-repeat: no-repeat;
 }
 
-.Mborder {
-    border-style: solid;
-    background-image: url(../Images/Grainy_Background.jpg);
-    background-repeat: no-repeat;
+p.Cborder a:hover {
+    background-color: darkgrey;
 }
-
- p.Cborder a:hover {
-     background-color: darkgrey;
- }
 
 nav ul li a {
     color: #31B9B6;
 }
 
- .fab {
+.fab {
     background-color: ghostwhite;
-     float: right;
-     border-right: solid;
-     padding: .5em;
-     
- }
+    float: right;
+    border-right: solid;
+    padding: .5em;
+}
 
- .fab:hover {
-     background-color: dodgerblue;
- }
+    .fab:hover {
+        background-color: dodgerblue;
+    }
 
 #headerOverlay {
     background-image: url(../Images/Logo2.jpg);
     background-repeat: no-repeat;
     background-size: 298px;
-    padding: 7em;
-    background-position: 8% center 10% bottom;
+    padding: 10em;
 }
 
 
@@ -102,10 +83,7 @@ h1.ghostF {
 }
 
 #Cgallery {
-    margin: auto;
-    width: 85%;
     text-align: center;
-    border: solid;
 }
 
 div.CItem {
@@ -115,30 +93,27 @@ div.CItem {
     width: 350px;
 }
 
-div.CItem:hover {
-    border: 1px solid darkgrey;
-}
+    div.CItem:hover {
+        border: 1px solid darkgrey;
+    }
 
-div.CItem img {
-    width: 100%;
-    height: auto;
-}
+    div.CItem img {
+        width: 100%;
+        height: auto;
+    }
 
-div.CItem a:hover {
-    background-color: darkgrey;
-}
+    div.CItem a:hover {
+        background-color: darkgrey;
+    }
 
-.Sclass {
-    background-image: url(../Images/Grainy_Background.jpg);
-}
 
 .Dtext {
-   color: orangered;
-   font-family: "Sedgwick Ave", cursive;
+    color: orangered;
+    font-family: "Sedgwick Ave", cursive;
 }
 
 .bodyEdge {
-    margin: 0;
+    margin: .1px;
     background-image: url(../Images/Grainy_Background.jpg);
 }
 
@@ -168,15 +143,13 @@ div.CItem a:hover {
 .departmentFloat {
     width: 260px;
     float: right;
-    background-color: white;
-    height:101em;
+    background-color: darkgray;
+    height: 101em;
 }
 
 .setIn {
     max-width: 900px;
     margin: 15px auto;
-   
-    
 }
 
 .design {
@@ -184,17 +157,15 @@ div.CItem a:hover {
     max-width: 600px;
     border-right: 1px solid #EEE;
     padding-left: 30px;
-    text-align:center;
-    background-color:white;
-   height: 101em;
+    text-align: center;
+    background-color: darkgray;
+    height: 101em;
 }
 
 .roles {
     font-size: 45px;
     font-weight: bold;
     text-align: center;
-   
-   
     margin-bottom: 50px;
 }
 
@@ -205,4 +176,4 @@ div.CItem a:hover {
     padding-top: 150px;
     margin-bottom: 50px;
 }
-   
+
