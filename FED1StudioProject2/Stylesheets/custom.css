@@ -6,16 +6,15 @@ h1.ghostI {
     color: ghostwhite;
     margin: 0px;
     font-family: 'Sedgwick Ave', cursive;
-    background-image: url(../Images/Grainy_Background.jpg);
-    background-repeat: no-repeat;
+
 }
 
-h1.ghostB {
+/*h1.ghostB {
     font-weight: bold;
     color: orangered;
     background-image: url(../Images/Grainy_Background.jpg);
     background-repeat: no-repeat;
-}
+}*/
 
  #ghoulA {
      background-color: orangered;
@@ -24,9 +23,7 @@ h1.ghostB {
  
  p.ghostT {
      color: orangered;
-     background-image: url(../Images/Grainy_Background.jpg);
-     background-repeat:no-repeat;
-     margin: 0px;
+
      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
  }
 
@@ -97,8 +94,6 @@ nav ul li a {
 h1.ghostF {
     font-style: italic;
     color: #31B9B6;
-    background-image: url(../Images/Grainy_Background.jpg);
-    background-repeat: no-repeat;
     font-family: 'Sedgwick Ave', cursive;
 }
 
@@ -144,6 +139,7 @@ div.CItem a:hover {
 
 .bodyEdge {
     margin: 0;
+    background-image: url(../Images/Grainy_Background.jpg);
 }
 
 .pageSize {
@@ -170,9 +166,10 @@ div.CItem a:hover {
 }
 
 .departmentFloat {
-    width: 200px;
+    width: 260px;
     float: right;
-    background-image:
+    background-color: white;
+    height:101em;
 }
 
 .setIn {
@@ -188,7 +185,8 @@ div.CItem a:hover {
     border-right: 1px solid #EEE;
     padding-left: 30px;
     text-align:center;
-   
+    background-color:white;
+   height: 101em;
 }
 
 .roles {
