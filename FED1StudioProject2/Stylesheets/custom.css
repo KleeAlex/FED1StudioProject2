@@ -22,10 +22,10 @@ nav ul li {
     display: inline-block;
 }
 
-    nav ul li a {
-        padding: .2em 7em;
-        display: block;
-    }
+nav ul li a {
+    padding: .2em 7em;
+    display: block;
+}
 
 nav li:hover {
     background-color: chocolate;
@@ -59,16 +59,16 @@ nav ul li a {
     padding: .5em;
 }
 
-    .fab:hover {
-        background-color: dodgerblue;
-    }
+.fab:hover {
+    background-color: dodgerblue;
+}
 
 #headerOverlay {
     background-image: url(../Images/Logo2.jpg);
     background-repeat: no-repeat;
     background-size: 298px;
     padding: 10em;
-}
+}   
 
 
 
@@ -93,18 +93,18 @@ div.CItem {
     width: 350px;
 }
 
-    div.CItem:hover {
-        border: 1px solid darkgrey;
-    }
+div.CItem:hover {
+    border: 1px solid darkgrey;
+}
 
-    div.CItem img {
-        width: 100%;
-        height: auto;
-    }
+ div.CItem img {
+    width: 100%;
+    height: auto;
+}
 
-    div.CItem a:hover {
-        background-color: darkgrey;
-    }
+div.CItem a:hover {
+    background-color: darkgrey;
+}
 
 
 .Dtext {
@@ -177,3 +177,13 @@ div.CItem {
     margin-bottom: 50px;
 }
 
+table, th, td {
+    border: 1px solid black;
+}
+
+.tableC {
+    width: 50%;
+    background-color: darkgray;
+    margin-left:auto;
+    margin-right:auto;
+}
