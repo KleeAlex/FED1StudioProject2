@@ -216,13 +216,13 @@ table, th, td {
     color: orangered;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
-    margin: 5em 10em 5em 0;
+    /*margin: 5em 10em 5em 0;*/
 }
 
 .floatC {
     font-style: italic;
     color: ghostwhite;
-    margin: 0px;
+    /*margin: 0px;*/
     font-family: 'Sedgwick Ave', cursive;
     text-align: center;
     text-decoration: underline;
@@ -230,6 +230,9 @@ table, th, td {
 
 .floatI{
     float:right;
+    width: 30%;
+}.floatIL{
+    float:left;
     width: 30%;
 }
 
@@ -242,4 +245,8 @@ table, th, td {
 .navBord{
     border:solid;
     text-align:center;
+}
+
+#btm {
+    margin-bottom: 15em;
 }
